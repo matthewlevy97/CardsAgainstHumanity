@@ -1,0 +1,58 @@
+.cardText {
+	
+}
+
+.game {
+	display: table;
+	width: 700px;
+}
+.cards {
+	display: table-row;
+	align: center;
+}
+.black {
+	display: table-row;
+}
+
+.blackCard {
+	display: inline-block;
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+
+.whiteCard {
+	/* Display Cards Next To Each Other */
+	margin-right: 20px;
+	display: table-cell;
+	
+	width:  20%;
+}
+
+.selected {
+	-webkit-box-shadow: 0 0 40px orange;
+	-moz-box-shadow: 0 0 40px orange;
+	box-shadow: 0 0 40px orange;
+}
+
+.card {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	
+	/* For Rounded Corners */
+	border-radius: 5px;
+	
+	height: 250px;
+	
+	border: 1px solid black;
+	
+	font-size: 5vh;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
