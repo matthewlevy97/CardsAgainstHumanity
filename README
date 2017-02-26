@@ -1,0 +1,10 @@
+What Is This?
+Multiplayer version of Cards Against Humanity online
+This project is not currently finished
+Used to introduce myself to javascript websockets
+
+Requirements:
+1) Node.js (nodemon)
+
+Setup:
+Run StartServer.cmd to start server on port 3000
